@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: var(--font-family-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: var(--font-family-code);
+}
+
+main {
+  height: 30%;
+}
+.row {
+  align-items: center;
+}
+
+h1 {
+  padding: 3rem;
+  text-align: center;
+  color: var(--h1-color);
+}
+
+.navbar-brand span {
+  color: var(--navbar-brand-span-color);
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+a,
+h6 {
+  color: var(--a-h6-color);
+  text-decoration: none;
+  cursor: pointer;
+  margin: 6px;
+}
+
+a:hover {
+  color: var(--a-hover);
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.6rem 0.6rem 0 0.6rem;
+  border-radius: 10px;
+  border: 2px solid var(--card-border);
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  transition: all 400ms ease;
+}
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+  transform: translateY(-3%);
+  color: var(--card-hover-color);
+}
+.card-grid {
+  padding-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.125rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn-light {
+  background-color: var(--btn-light-bg-color);
+}
+
+.btn-form {
+  margin: 13px;
+  border-radius: 10px;
+  background-color: var(--btn-form-bg-color);
+}
+
+.btn-form:hover {
+  color: var(--btn-form-hover-color);
+  border-radius: 10px;
+  background-color: var(--btn-form-hover-bg-color);
+}
+.contact {
+  display: grid;
+  place-items: center;
+  padding: 80px;
+}
+
+.input-form {
+  border-radius: 10px;
+  margin: 3px;
+  padding: 4px 1px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 8rem;
+}
+
+.btn-add-fav {
+  border-radius: 30px;
+  margin: 6px;
+}
+.dentist-Information {
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 800px) {
+  .card-grid {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+}

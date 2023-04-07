@@ -1,0 +1,39 @@
+:root {
+  /* body */
+  --font-family-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  /* code */
+  --font-family-code: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+
+  /* H1 */
+  --h1-color: rgb(95, 93, 93);
+
+  /* nav */
+  --navbar-brand-span-color: #cb1e40;
+
+  /* a,h6 */
+  --a-h6-color: #000;
+
+  --a-hover: rgb(95, 93, 93);
+
+  /* card */
+  --card-border: rgb(136, 136, 136);
+  --card-hover-color: #cb1e40;
+
+  /* btn-light */
+  --btn-light-bg-color: rgb(214, 214, 214);
+  --btn-form-bg-color: #f8f9fa;
+  --btn-form-hover-color: #fff;
+  --btn-form-hover-bg-color: #cb1e40;
+
+  /* NavbarModule */
+
+  --nav-link-hover-color: #cb1e40;
+
+  /* FooterModule */
+  --top-bg: #cb1e40;
+  --top-color: #fff;
+}
